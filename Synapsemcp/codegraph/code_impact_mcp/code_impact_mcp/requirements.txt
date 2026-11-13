@@ -1,0 +1,6 @@
+pathspec>=0.12,<1
+tree-sitter>=0.24,<1
+tree-sitter-language-pack>=0.9,<1
+mcp>=1.0,<2
+# Optional semantic search, retained from the original code:
+# fastembed>=0.4

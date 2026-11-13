@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codebase-impact-graph-mcp"
+version = "0.1.0"
+description = "Local Python codebase graph, impact analysis, and semantic search exposed over MCP."
+requires-python = ">=3.11"
+dependencies = [
+    "mcp>=1.28.1,<2",
+    "fastembed>=0.7.3,<1",
+    "pathspec>=1.0,<2",
+    "tree-sitter-language-pack>=0.13.0,<1",
+]
+
+[tool.setuptools.packages.find]
+include = ["codegraph*"]

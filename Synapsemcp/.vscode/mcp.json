@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "codebase-impact-graph": {
+      "type": "stdio",
+      "command": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+      "args": ["${workspaceFolder}\\server.py"],
+      "env": {
+        "CODEGRAPH_PROJECT_ROOT": "${workspaceFolder}"
+      }
+    }
+  }
+}

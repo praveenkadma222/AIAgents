@@ -1,0 +1,25 @@
+[project]
+name = "sql-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "praveenk222", email = "praveenkadma222@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.7.3",
+    "langchain-ollama>=1.1.0",
+    "psycopg[binary]>=3.2",
+    "pyodbc>=5.3.0",
+    "sqlalchemy>=2.1.6",
+    "streamlit>=1.66.1",
+]
+
+[project.scripts]
+sql-agent = "sql_agent:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
