@@ -8,7 +8,7 @@ streamlit = "*"
 langchain-groq ="*"
 langchain-community = "*"
 pypdf = "*"
-
+sentence-transformers = "*"
 [dev-packages]
 
 [requires]
